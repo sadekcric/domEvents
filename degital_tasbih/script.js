@@ -34,7 +34,7 @@ function decrement1(id) {
     return alert(`Min Number is 0`);
   }
   const innderText = document.getElementById(id);
-  innderText.innerText = subhanAllahCount = subhanAllahCount - 1;
+  innderText.innerText = subhanAllahCount-=1;
 }
 
 function decrement2(id) {
