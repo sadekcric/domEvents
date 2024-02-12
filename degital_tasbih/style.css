@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.tasbih_section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  background: linear-gradient(90deg,#8bd3e1, #8bd3e1, #3df300,#3df300);
+  color: transparent;
+  background-clip: text;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.commonDiv {
+  box-shadow: 0 5px 10px #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+p {
+  font-size: 3rem;
+  margin-top: 20px;
+  font-weight: 400;
+}
+button {
+  padding: 15px 30px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+}
+.increment {
+  background: #51cd51;
+}
+.Decrement {
+  background: red;
+}
+.reset{
+  background: goldenrod;
+}
+
+.resetDiv{
+  text-align: center;
+  margin-top: 30px;
+}

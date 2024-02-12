@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #01012f;
+  color: white;
+}
+h1 {
+  color: yellow;
+  font-size: 4rem;
+  text-align: center;
+  margin: 10px 0;
+  border-bottom: 3px solid yellow;
+}
+.list_div {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 20px - 5rem);
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 30px;
+}
+ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  border: 2px solid yellow;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  background-color: yellow;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #dcdc8c;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+.language-title {
+  margin: 50px 0 20px 20%;
+  font-size: 2rem;
+  text-align: start;
+  width: 100%;
+}
+
+.checklist {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  margin-left: 20%;
+}
+.checklist label {
+  text-align: left;
+}
+.checklist input {
+  width: 20px;
+  height: 20px;
+}
+p{
+  margin-top: 10px;
+  font-size: 2rem;
+}
+#favorite{
+  color:yellow
+}

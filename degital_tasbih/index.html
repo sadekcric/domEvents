@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Tasbih</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Digital Tasbih</h1>
+
+    <div class="tasbih_section">
+      <div class="commonDiv">
+        <h3>Subhan Allah</h3>
+        <p id="subhanAllah">0</p>
+        <div>
+          <button class="increment" onclick="increment1('subhanAllah')">Increment</button>
+          <button class="Decrement" onclick="decrement1('subhanAllah')">Decrement</button>
+        </div>
+      </div>
+
+      <div class="commonDiv">
+        <h3>Alhamdulillah</h3>
+        <p id="alhamdulillah">0</p>
+        <div>
+          <button class="increment" onclick="increment2('alhamdulillah')">Increment</button>
+          <button class="Decrement" onclick="decrement2('alhamdulillah')">Decrement</button>
+        </div>
+      </div>
+
+      <div class="commonDiv">
+        <h3>Allahuakbar</h3>
+        <p id="allahuakbar">0</p>
+        <div>
+          <button class="increment" onclick="increment3('allahuakbar')">Increment</button>
+          <button class="Decrement" onclick="decrement3('allahuakbar')">Decrement</button>
+        </div>
+      </div>
+    </div>
+    <div class="resetDiv">
+      <button class="reset" onclick="reset('subhanAllah','alhamdulillah','allahuakbar')">Reset All Tasbih</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
